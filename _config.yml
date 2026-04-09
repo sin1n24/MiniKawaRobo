@@ -3,11 +3,6 @@ description: 手のひらサイズの格闘ロボット競技『ミニかわロ�
 url: "https://sin1n24.github.io"
 baseurl: "/MiniKawaRobo"
 
-# ---------------------------------------------
-# ここから下が、エラーを直すための重要な設定です
-# ---------------------------------------------
-
-# GitHubのリポジトリから直接テーマを読み込む設定
 remote_theme: just-the-docs/just-the-docs
 
 favicon_ico: /assets/favicon.ico
@@ -16,6 +11,5 @@ aux_links:
   "GitHub": "https://github.com/sin1n24/MiniKawaRobo"
   "SNS": "https://x.com/sin1west"
 
-# 外部テーマを読み込むためのプラグインを有効化
 plugins:
   - jekyll-remote-theme
