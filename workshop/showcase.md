@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "製作例の紹介"
-nav_order: 3
+nav_order: 6
 ---
 **目次**
 * TOC
