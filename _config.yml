@@ -7,7 +7,7 @@ remote_theme: just-the-docs/just-the-docs
 
 favicon_ico: /assets/favicon.ico
 
-logo: "/assets/ミニかわロボ.png"
+# logo: "/assets/ミニかわロボ.png"
 
 aux_links:
   "GitHub": "https://github.com/sin1n24/MiniKawaRobo"
