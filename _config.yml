@@ -12,6 +12,7 @@ logo: "/assets/ミニかわロボ.png"
 aux_links:
   "GitHub": "https://github.com/sin1n24/MiniKawaRobo"
   "SNS": "https://x.com/sin1west"
+  "Blog": "https://sin1n24.hatenablog.com/"
 
 plugins:
   - jekyll-remote-theme
