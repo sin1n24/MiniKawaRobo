@@ -1,6 +1,6 @@
 title: ミニかわロボ公式リソース集
 description: 手のひらサイズの格闘ロボット競技『ミニかわロボ』の公式製作ガイド＆ルール
-theme: just-the-docs # ベースとなるテーマ
+remote_theme: just-the-docs # ベースとなるテーマ
 url: "https://sin1n24.github.io"
 baseurl: "/MiniKawaRobo"
 
