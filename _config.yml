@@ -10,6 +10,8 @@ baseurl: "/MiniKawaRobo"
 # GitHubのリポジトリから直接テーマを読み込む設定
 remote_theme: just-the-docs/just-the-docs
 
+favicon_ico: /assets/favicon.ico
+
 # 外部テーマを読み込むためのプラグインを有効化
 plugins:
   - jekyll-remote-theme
