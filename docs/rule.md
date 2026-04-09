@@ -16,8 +16,8 @@
 
 ### 3. リング（推奨あり）
 * サイズは**約A3（300x400mm）**を基準とし、凹凸や柱などの障害物を設ける。
-* 大会ごとに任意のサイズや形状として構わない。参考例として[3Dデータ](https://makerworld.com/en/models/795782-obstacles-for-tabletop-robot-fields)あり。
-* リングの土台は高さを持ち、リング外の判定がしやすいことが望ましい。参考例として[3Dデータ](https://makerworld.com/en/models/1830107-robot-ring-base)あり。
+* 大会ごとに任意のサイズや形状として構わない。参考例として[3Dデータ](https://makerworld.com/en/models/795782-obstacles-for-tabletop-robot-fields){: .btn .btn-primary }あり。
+* リングの土台は高さを持ち、リング外の判定がしやすいことが望ましい。参考例として[3Dデータ](https://makerworld.com/en/models/1830107-robot-ring-base){: .btn .btn-primary }あり。
 
 ### 4. 大会と試合方式と車検（推奨あり）
 * 大会は規定しない。他の練習会等と併催の可能性あるが、主催者が判断する。
