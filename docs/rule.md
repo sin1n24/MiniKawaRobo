@@ -3,8 +3,8 @@ layout: default
 title: "競技ルール"
 nav_order: 2
 ---
-** 目次 **
-1. TOC
+**目次**
+* TOC
 {:toc}
 
 ## 1. 目的
