@@ -15,3 +15,31 @@ nav_order: 4
 <iframe src="https://hatenablog-parts.com/embed?url=https://sin1n24.hatenablog.com/entry/2023/12/18/000338" 
         style="border: 0; display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;" 
         frameborder="0" scrolling="no"></iframe>
+        
+<iframe src="https://hatenablog-parts.com/embed?url=https://sin1n24.hatenablog.com/entry/2024/01/03/010304" 
+        style="border: 0; display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;" 
+        frameborder="0" scrolling="no"></iframe>
+        
+<iframe src="https://hatenablog-parts.com/embed?url=https://sin1n24.hatenablog.com/entry/2024/03/12/231830" 
+        style="border: 0; display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;" 
+        frameborder="0" scrolling="no"></iframe>
+        
+<iframe src="https://hatenablog-parts.com/embed?url=https://sin1n24.hatenablog.com/entry/2025/01/24/005304" 
+        style="border: 0; display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;" 
+        frameborder="0" scrolling="no"></iframe>
+        
+<iframe src="https://hatenablog-parts.com/embed?url=https://sin1n24.hatenablog.com/entry/2025/10/18/231400" 
+        style="border: 0; display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;" 
+        frameborder="0" scrolling="no"></iframe>
+        
+<iframe src="https://hatenablog-parts.com/embed?url=" 
+        style="border: 0; display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;" 
+        frameborder="0" scrolling="no"></iframe>
+        
+<iframe src="https://hatenablog-parts.com/embed?url=" 
+        style="border: 0; display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;" 
+        frameborder="0" scrolling="no"></iframe>
+        
+<iframe src="https://hatenablog-parts.com/embed?url=" 
+        style="border: 0; display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;" 
+        frameborder="0" scrolling="no"></iframe>
