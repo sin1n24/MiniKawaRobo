@@ -17,19 +17,11 @@ nav_order: 5
 | 7 | [JRRF 2026](https://japanreprapfestival.com/)-day2 | 2026/05/31 | | 東京 流通センター | |
 
 
-> <iframe src="https://hatenablog-parts.com/embed?url=https://sin1n24.hatenablog.com/entry/2025/09/17/225046" 
-        style="border: 0; display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;" 
-        frameborder="0" scrolling="no"></iframe>
-
-> <iframe src="https://hatenablog-parts.com/embed?url=https://sin1n24.hatenablog.com/entry/2025/11/10/235043" 
-        style="border: 0; display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;" 
-        frameborder="0" scrolling="no"></iframe>
-
-> <iframe src="https://hatenablog-parts.com/embed?url=https://sin1n24.hatenablog.com/entry/2025/12/14/212524" 
-        style="border: 0; display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;" 
-        frameborder="0" scrolling="no"></iframe>
-
-> <iframe src="https://hatenablog-parts.com/embed?url=https://sin1n24.hatenablog.com/entry/2026/03/14/004040" 
-        style="border: 0; display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;" 
-        frameborder="0" scrolling="no"></iframe>
+> <iframe src="https://hatenablog-parts.com/embed?url=https://sin1n24.hatenablog.com/entry/2025/09/17/225046"         style="border: 0; display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;"         frameborder="0" scrolling="no"></iframe>
+> 
+> <iframe src="https://hatenablog-parts.com/embed?url=https://sin1n24.hatenablog.com/entry/2025/11/10/235043"         style="border: 0; display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;"         frameborder="0" scrolling="no"></iframe>
+> 
+> <iframe src="https://hatenablog-parts.com/embed?url=https://sin1n24.hatenablog.com/entry/2025/12/14/212524"        style="border: 0; display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;"         frameborder="0" scrolling="no"></iframe>
+> 
+> <iframe src="https://hatenablog-parts.com/embed?url=https://sin1n24.hatenablog.com/entry/2026/03/14/004040"         style="border: 0; display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;"         frameborder="0" scrolling="no"></iframe>
 {: .instruction }
