@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "ミニかわロボ ルール"
+title: "競技ルール"
 nav_order: 2
 ---
 ** 目次 **
