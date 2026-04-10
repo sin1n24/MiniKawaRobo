@@ -11,6 +11,7 @@ nav_order: 1
 
 # まずは動画を見て下さい！
 <iframe width="560" height="315" src="https://www.youtube.com/embed/M2px15weXyM?si=3o9jz7mzHSSR9KFB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+※音量注意
 
 # 新着情報
 + 2026/5/30-31 国内最大級の3DプリンタのイベントJRRFに出展します！詳細は[こちら](https://sin1n24.hatenablog.com/entry/2026/03/24/223605)
