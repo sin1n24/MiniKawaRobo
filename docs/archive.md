@@ -4,10 +4,18 @@ title: "過去の大会"
 nav_order: 5
 ---
 
+# 過去の大会・イベント
+
+ミニかわロボは、2025年から各地でミニ大会が開催されています。以下は、これまでに開催された大会とイベントの記録です。
+
+## 開催形式について
+
 ミニ大会は、今のところ他の大きなイベントに乗っかる形で併催しています。
 
 + 例：3DPの集い→イベントの１ブースとして出展してミニかわロボのミニ大会を実施
 + 例：電大杯→かわロボの電大杯の一部として場所をお借りしてミニかわロボのミニ大会を実施
+
+## 大会実績一覧
 
 | 日時 | イベント名 | 優勝ロボ | 場所 | 参加台数 |
 | :--- | :--- | :--- | :--- | :--- |
@@ -19,7 +27,19 @@ nav_order: 5
 | 2026/05/30 | [JRRF 2026](https://japanreprapfestival.com/)-day1  | ？？？ | 東京 流通センター | |
 | 2026/05/31 | [JRRF 2026](https://japanreprapfestival.com/)-day2  | ？？？ | 東京 流通センター | |
 
-過去に開催したミニ大会についての記事を貼ります。
+## 今後の開催予定について
+
+最新の開催予定は、以下のチャネルでお知らせしています：
+
++ **[SNS（X/Twitter）](https://x.com/sin1west)** - リアルタイムで最新情報を配信
++ **[公式ブログ](https://sin1n24.hatenablog.com/archive/category/ミニかわロボ)** - 詳細な開催レポートと次回予告
++ **[GitHub Issues](https://github.com/sin1n24/MiniKawaRobo/issues)** - 開催予定の提案・相談
+
+新しいイベント開催の提案や、既存イベントへの出展希望がございましたら、上記のチャネルでお気軽にお問い合わせください。
+
+## 過去の大会レポート
+
+過去に開催したミニ大会についての詳細な記事を以下に掲載しています。各大会の様子、参加ロボット、優勝者のコメントなどが記載されています。
 
 <iframe src="https://hatenablog-parts.com/embed?url=https://sin1n24.hatenablog.com/entry/2025/09/17/225046"         style="border: 0; display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;" frameborder="0" scrolling="no"></iframe>
 
