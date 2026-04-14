@@ -37,14 +37,22 @@ nav_order: 5
 
 新しいイベント開催の提案や、既存イベントへの出展希望がございましたら、上記のチャネルでお気軽にお問い合わせください。
 
-## 過去の大会レポート
+## 大会レポートの詳細紹介
 
-過去に開催したミニ大会についての詳細な記事を以下に掲載しています。各大会の様子、参加ロボット、優勝者のコメントなどが記載されています。
+過去に開催された大会の様子を詳しくご紹介します。
 
-<iframe src="https://hatenablog-parts.com/embed?url=https://sin1n24.hatenablog.com/entry/2025/09/17/225046"         style="border: 0; display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;" frameborder="0" scrolling="no"></iframe>
+### 1. 初のミニ大会＠3Dプリンタの集い in 大阪 (2025/09/13)
+大阪市中央公会堂という歴史ある場所で、記念すべき第1回目のミニ大会が開催されました。3Dプリンタ愛好家が集まる中、自作フレームを駆使したロボットたちが熱戦を繰り広げました。
+<iframe src="https://hatenablog-parts.com/embed?url=https://sin1n24.hatenablog.com/entry/2025/09/17/225046" style="border: 0; display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;" frameborder="0" scrolling="no"></iframe>
 
-<iframe src="https://hatenablog-parts.com/embed?url=https://sin1n24.hatenablog.com/entry/2025/11/10/235043"         style="border: 0; display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;" frameborder="0" scrolling="no"></iframe>
+### 2. 本格トーナメント開催＠電大杯 (2025/11/01)
+かわロボの伝統ある「電大杯」に間借りし、10名という多くの参加者が集まりました。本格的なトーナメント形式で、多様な機構を持つロボットたちがぶつかり合う、非常に盛り上がった大会となりました。
+<iframe src="https://hatenablog-parts.com/embed?url=https://sin1n24.hatenablog.com/entry/2025/11/10/235043" style="border: 0; display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;" frameborder="0" scrolling="no"></iframe>
 
-<iframe src="https://hatenablog-parts.com/embed?url=https://sin1n24.hatenablog.com/entry/2025/12/14/212524"        style="border: 0; display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;" frameborder="0" scrolling="no"></iframe>
+### 3. 2025年を締めくくる熱戦＠立命杯 (2025/12/06)
+滋賀県で開催された立命杯にて、2025年最後のミニ大会を実施。6名の参加者による熱いバトルが展開され、1年間の活動を締めくくるにふさわしい充実した内容となりました。
+<iframe src="https://hatenablog-parts.com/embed?url=https://sin1n24.hatenablog.com/entry/2025/12/14/212524" style="border: 0; display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;" frameborder="0" scrolling="no"></iframe>
 
-<iframe src="https://hatenablog-parts.com/embed?url=https://sin1n24.hatenablog.com/entry/2026/03/14/004040"         style="border: 0; display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;" frameborder="0" scrolling="no"></iframe>
+### 4. 地域イベントへの出展＠メイカーズながおかまつり (2026/03/01)
+長岡市の「メイカーズながおかまつり」に出展。一般来場者への体験操縦会なども行い、ミニかわロボの楽しさをより広い層に伝える機会となりました。
+<iframe src="https://hatenablog-parts.com/embed?url=https://sin1n24.hatenablog.com/entry/2026/03/14/004040" style="border: 0; display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;" frameborder="0" scrolling="no"></iframe>
