@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "よくある質問（FAQ）"
-nav_order: 8
+nav_order: 80
 ---
 
 # よくある質問（FAQ）

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "競技ルール"
-nav_order: 4
+nav_order: 30
 ---
 **目次**
 * TOC

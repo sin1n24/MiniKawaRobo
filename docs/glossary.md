@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "用語集"
-nav_order: 9
+nav_order: 90
 ---
 
 # 用語集
