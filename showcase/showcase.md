@@ -39,12 +39,18 @@ nav_order: 70
 
 ユーザーの皆様による、独創的なミニかわロボの製作例をご紹介します。
 
-### 1. 初心者向けM5シリーズ活用ガイド
-M5Atom S3やM5Capsuleを使用した、初心者でも作りやすい構成例を紹介しています。スマホアプリでの操縦方法も詳しく解説されており、最初の一歩に最適です。
+### ミニかわロボ作ってみた！｜すーほ。
+スナップフィット構造を用いてネジを極力使わず組み立てられる機体「グリモルディ」の紹介として設計思想や車輪の換装ギミックなどを紹介しています。
+
+また、ミニかわロボが「かわロボOBの復帰のきっかけ」や「非競技系メイカーが勝負の楽しさを知る場」、さらには参加者のレベルに応じた（子供から大人まで）初心者向け教材として非常に有効であるとコメント頂きました。
+
 <iframe class="note-embed" src="https://note.com/embed/notes/n0a02cd8ad297" style="border: 0; display: block; max-width: 99%; width: 494px; padding: 0px; margin: 10px 0px; position: static; visibility: visible;" height="400"></iframe><script async src="https://note.com/scripts/embed.js" charset="utf-8"></script>
 
-### 2. M5ATOMを用いた詳細な制御コード例
-より高度な制御を目指す方向けに、M5Atomを使用した詳細なプログラミング例と機体構成が紹介されています。カスタムコントローラの実装など、中級者以上のステップアップに役立ちます。
+### ミニかわロボ　初制作機体｜下克上
+100円ショップのカービィのフィギュア、端材のポリカーボネート板、輪ゴムなどを活用し、数時間で「サーボスター」という機体を完成させた製作記です
+。
+
+激安サーボ特有のトラブルを抱えながらも、試合として十分に成立し、平和でユルい雰囲気で楽しめた旨をコメント頂きました。
 <iframe class="note-embed" src="https://note.com/embed/notes/nb0adce424a60" style="border: 0; display: block; max-width: 99%; width: 494px; padding: 0px; margin: 10px 0px; position: static; visibility: visible;" height="400"></iframe><script async src="https://note.com/scripts/embed.js" charset="utf-8"></script>
 
 ---

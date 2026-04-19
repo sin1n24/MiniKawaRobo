@@ -19,6 +19,7 @@ nav_order: 20
 ---
 
 ## 🛠 5つの基本要素
+![ミニかわロボの5つの基本要素](../assets/howto.png)
 
 ### 1. 電池（パワー源）
 ロボットを動かすための電源です。サイズと容量のバランスで選びます。
@@ -27,7 +28,7 @@ nav_order: 20
 | :--- | :--- |
 | **乾電池** | 安全、入手が容易、重い (約200円) |
 | **小型リポバッテリ** | 軽量・コンパクト (約500円) |
-| **ドローン用バッテリ** | 比較機安全、高出力。充電器セットもある。 (約500～1000円) |
+| **ドローン用バッテリ** | 比較機安全、高出力。充電器セットもある。 (約600～1000円) |
 | **バッテリ内蔵マイコン** | コンパクト。M5Capsuleなど。 (約3,850円) |
 
 **リポバッテリを使用する際は充電や配線に充分注意して下さい。**
@@ -54,11 +55,11 @@ nav_order: 20
 * **マイクロサーボ ([FS90](https://akizukidenshi.com/catalog/g/g114806/) / [FS90R](https://akizukidenshi.com/catalog/g/g113206/))** 定番のパーツ (3個で約1,500円）より頑丈な[SG92R](https://akizukidenshi.com/catalog/g/g108914/)や[SG90-HV](https://akizukidenshi.com/catalog/g/g114382/)もあり
 * **[Servo Kit 360](https://ssci.to/6479)** フレームとタイヤもセットになった便利なキット (約1,700円)
 
-### 5. フレーム（体）
+### 5. メカ（体）
 ロボットの見た目と機構そのものです。
 タイヤにゴムを貼るのを忘れずに！
 
-* **[3Dプリンタ製フレーム](https://makerworld.com/en/models/795780-mini-kawa-robot#profileId-1113049)** 設計データを公開中
+* **[3Dプリンタ製メカ](https://makerworld.com/en/models/795780-mini-kawa-robot#profileId-1113049)** 設計データを公開中
 * **自作メカ** 3DCADでオリジナルの構造を設計して、世界に一台の機体をつくろう！
 * **レゴ** 上記のServo Kit 360付属フレームはレゴ互換なので、そこから改造する
 
@@ -74,5 +75,3 @@ nav_order: 20
 <iframe src="https://hatenablog-parts.com/embed?url=https://sin1n24.hatenablog.com/entry/2023/12/18/000338" 
         style="border: 0; display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;" 
         frameborder="0" scrolling="no"></iframe>
-
-> だいたい「ミニかわロボ」で検索すれば、最新の技術情報が見つかります！

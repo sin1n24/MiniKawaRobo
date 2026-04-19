@@ -6,153 +6,62 @@ nav_order: 60
 
 # 技術紹介
 
-ミニかわロボの製作に関する技術情報を、初心者向けから上級者向けまで幅広く紹介しています。以下のコンテンツをご参照ください。
+ミニかわロボの製作に役立つ技術情報を、公開されている記事を中心に紹介します。
 
 1. TOC
 {:toc}
 
 ---
 
-## サンプルプログラムの提供について
+## サンプルプログラム
 
 本プロジェクトでは、リポジトリ内の **`samplecode`** ディレクトリに、ミニかわロボを動かすためのサンプルプログラムを順次公開していく予定です。
 
 - **[samplecode/ ディレクトリを見る](https://github.com/sin1n24/MiniKawaRobo/tree/main/samplecode)**
   - ※GitHubのリポジトリを直接参照してください。
-  - 今後、M5Atom S3やM5Capsule向けの基本的な動作コードや、コントローラー連携用のコードを追加予定です。
 
 ---
 
-## 初心者向けガイド
+## 製作・運用ガイド
 
-初めてミニかわロボを製作される方は、まず以下の記事をご覧ください。基本的な構成と製作方法が理解できます。
+### [ミニかわロボ設計・製作・操縦・運用のポイント](https://sin1n24.hatenablog.com/entry/2023/12/18/000338)
+開発者による総合ガイドです。メカ・エレキ・ソフト・操縦・運用の各観点から、サーボの保護やリポバッテリーの扱いなど、実戦で役立つノウハウが凝縮されています。
 
-### M5シリーズを用いてミニかわロボを動かす（初心者向け）
-
-M5Atom S3やM5Capsuleを使用した基本的な構成と、スマートフォンアプリでの操縦方法を解説しています。プログラミングの知識がなくても、この記事に従うことで動作するロボットが完成します。
-
-**主な内容:**
-- M5ボードの選択と基本設定
-- サーボの接続方法
-- スマートフォンアプリ（UGOKU Pad、Blynkなど）を使用した操縦
-- 簡単なトラブルシューティング
-
-<iframe class="note-embed" src="https://note.com/embed/notes/n0a02cd8ad297" style="border: 0; display: block; max-width: 99%; width: 494px; padding: 0px; margin: 10px 0px; position: static; visibility: visible;" height="400"></iframe><script async src="https://note.com/scripts/embed.js" charset="utf-8"></script>
+### [ミニかわロボ作ってみた！｜すーほ。](https://note.com/r_m_s_8573/n/n0a02cd8ad297)
+ミニ大会への参加レポートです。スナップフィットを活用した組み立てやすいメカ設計や、車輪の換装機構など、独自の工夫が満載で設計の参考になります。
 
 ---
 
-## 中級者向けガイド
+## 制御・プログラミング
 
-基本的な構成を理解した後、より高度な機能や最適化を学びたい方向けのコンテンツです。
+### [M5シリーズを用いてミニかわロボを動かす（初心者向け）｜Exem](https://note.com/exem/n/n4e82001dec61)
+M5StackシリーズとPS4コントローラを使用した制御方法の解説です。Arduino IDEの導入から、環境構築、具体的な制御コードの使い分けまで丁寧に説明されています。
 
-### M5ATOMを用いてミニかわロボを動かすコード（上級者向け）
-
-M5Atom S3を使用した、より詳細なプログラミング例を紹介しています。カスタムコントローラの実装や、複雑な動作シーケンスの設計方法が学べます。
-
-**主な内容:**
-- Arduino IDEでのコーディング
-- PWM制御によるサーボの精密制御
-- 無線通信プロトコル（BLE、WiFi、ESP-NOW）の実装
-- センサー連携による自動制御
-
-<iframe class="note-embed" src="https://note.com/embed/notes/nb0adce424a60" style="border: 0; display: block; max-width: 99%; width: 494px; padding: 0px; margin: 10px 0px; position: static; visibility: visible;" height="400"></iframe><script async src="https://note.com/scripts/embed.js" charset="utf-8"></script>
-
-<iframe class="note-embed" src="https://note.com/embed/notes/n4e82001dec61" style="border: 0; display: block; max-width: 99%; width: 494px; padding: 0px; margin: 10px 0px; position: static; visibility: visible;" height="400"></iframe><script async src="https://note.com/scripts/embed.js" charset="utf-8"></script>
+### [M5ATOMを用いてミニかわロボを動かすコード（上級者向け）｜Exem](https://note.com/exem/n/nb0adce424a60)
+M5ATOM Matrixを使用した、より詳細なプログラミング例です。ソースコードの構造解説や、より高度なカスタマイズを行いたい方向けの情報が含まれています。
 
 ---
 
-## 機械設計・最適化
+## ハードウェア・設計
 
-ロボットの性能を向上させるための機械設計に関する情報です。
+### [M5StickC+/Atom/Capsule向 サーボ接続基板の紹介](https://sin1n24.hatenablog.com/entry/2024/01/03/010304)
+マイコンとサーボを効率よく接続するための専用基板の紹介です。低背化の工夫や電源ラインの設計、各マイコンごとの特徴がまとめられています。
 
-### M5StickC+/Atom/Capsule向 サーボ接続基板の紹介
+### [ダブルヘリカルギア（やまば歯車）のご紹介](https://sin1n24.hatenablog.com/entry/2024/03/12/231830)
+3Dプリンタならではの「やまば歯車」の採用メリットと設計の注意点を解説しています。高強度で軸方向にズレにくい、見た目も格好良いギア機構の導入ガイドです。
 
-マイコンとサーボを効率的に接続するための基板について、設計思想と使用方法を解説しています。
-
-**主な内容:**
-- 基板の選択基準
-- 配線の最適化
-- 電力管理
-- トラブルシューティング
-
-<iframe src="https://hatenablog-parts.com/embed?url=https://sin1n24.hatenablog.com/entry/2024/01/03/010304" 
-        style="border: 0; display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;" 
-        frameborder="0" scrolling="no"></iframe>
-
-### ダブルヘリカルギア（やまば歯車）のご紹介
-
-複雑な動きを実現するためのギア機構について、設計と実装方法を紹介しています。
-
-**主な内容:**
-- ギア比の計算
-- 3Dプリンタでの製作方法
-- 動作の最適化
-- 実装例
-
-<iframe src="https://hatenablog-parts.com/embed?url=https://sin1n24.hatenablog.com/entry/2024/03/12/231830" 
-        style="border: 0; display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;" 
-        frameborder="0" scrolling="no"></iframe>
+### [M5ATOM S3向け小型ジョイスティックコントローラについて](https://sin1n24.hatenablog.com/entry/2025/01/24/005304)
+専用の自作コントローラの製作ガイドです。部品構成や組み立て動画、M5AtomS3用のサンプルコードが公開されており、本格的な操縦環境を構築できます。
 
 ---
 
-## コントローラー設計
-
-操縦系の設計に関する情報です。
-
-### M5ATOM S3向け小型ジョイスティックコントローラについて
-
-スマートフォンアプリではなく、専用のコントローラを自作したい方向けのガイドです。
-
-**主な内容:**
-- ジョイスティックの選択と接続
-- コントローラ基板の設計
-- プログラミング例
-- ケースの設計・製作
-
-<iframe src="https://hatenablog-parts.com/embed?url=https://sin1n24.hatenablog.com/entry/2025/01/24/005304" 
-        style="border: 0; display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;" 
-        frameborder="0" scrolling="no"></iframe>
-
----
-
-## 総合的な設計・製作・運用ガイド
-
-ロボット全体の設計から運用まで、総合的なノウハウをまとめた記事です。
-
-### ミニかわロボ設計・製作・操縦・運用のポイント
-
-ミニかわロボの開発者による、総合的な設計・製作・運用ガイドです。実際の大会出場経験に基づいたノウハウが詰まっています。
-
-**主な内容:**
-- 全体的な設計思想
-- 製作時の注意点
-- 操縦技術の向上
-- 大会での運用ノウハウ
-- トラブル対応
-
-<iframe src="https://hatenablog-parts.com/embed?url=https://sin1n24.hatenablog.com/entry/2023/12/18/000338" 
-        style="border: 0; display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;" 
-        frameborder="0" scrolling="no"></iframe>
-
----
-
-## その他のリソース
-
-### 設計データ
+## 設計データ
 
 3Dプリンタでフレームを製作する際に使用できる設計データが、以下のプラットフォームで公開されています：
 
 - **[ミニかわロボ 試作ロボ](https://makerworld.com/en/models/795780-mini-kawa-robot#profileId-1113049)** - 一番最初に作成したお試しロボです
 - **[ミニかわロボ用リング](https://makerworld.com/en/models/795782-obstacles-for-tabletop-robot-fields#profileId-1112904)** - リング形状の指定はありませんが、参考にして下さい
 - **[リング用の台座](https://makerworld.com/en/models/1830107-robot-ring-base#profileId-1954183)** - 必須ではありませんが、台座を入れて高さがあると競技として判定しやすくなります
-
-### ブログ
-
-詳細な技術情報やイベントレポートは、[公式ブログ](https://sin1n24.hatenablog.com/archive/category/ミニかわロボ)で随時更新されています。
-
-### GitHub
-
-ソースコード、設計データ、ドキュメントは、[GitHubリポジトリ](https://github.com/sin1n24/MiniKawaRobo)で公開されています。
 
 ---
 

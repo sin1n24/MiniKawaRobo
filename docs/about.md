@@ -35,7 +35,7 @@ nav_order: 10
 ミニかわロボの設計思想や活動内容について、より詳しく知りたい方は以下の記事もあわせてご覧ください。
 
 ### 1. ミニかわロボの提案と初期コンセプト
-開発者による最初の提案記事です。なぜこの規格が必要だったのか、どのような課題を解決しようとしているのかが詳しく述べられています。
+提案者による最初の提案記事です。なぜこの規格が必要だったのか、どのような課題を解決しようとしているのかが詳しく述べられています。
 <iframe src="https://hatenablog-parts.com/embed?url=https://sin1n24.hatenablog.com/entry/2023/11/30/234739" style="border: 0; display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;" frameborder="0" scrolling="no"></iframe>
 
 ### 2. 活動報告と今後の展望（2025-2026）
@@ -43,7 +43,7 @@ nav_order: 10
 <iframe src="https://hatenablog-parts.com/embed?url=https://sin1n24.hatenablog.com/entry/2025/12/24/233513" style="border: 0; display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;" frameborder="0" scrolling="no"></iframe>
 
 ### 3. ProtoPedia：詳細な設計データとプロセス
-ProtoPediaでは、制作過程や技術的な詳細、設計思想がビジュアルと共に詳しく公開されています。
+ProtoPediaにはM5Stackコンテスト向けに編集した製作記事を載せています。
 > #### [ProtoPedia] ミニかわロボ：手のひらサイズの格闘ロボット
 > [![ProtoPediaサムネイル](../assets/MiniKawaRobo.png)](https://protopedia.net/prototype/5154)
 > [→ ProtoPediaで詳細を見る](https://protopedia.net/prototype/5154){: .btn .btn-outline }
