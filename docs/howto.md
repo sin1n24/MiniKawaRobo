@@ -51,14 +51,14 @@ nav_order: 2
 ### 4. サーボ（筋肉）
 腕を動かしたり、車輪を回したりするためのモーターです。
 
-* **マイクロサーボ (FS90 / FS90R)** 定番のパーツ (3〜4個で約1,500円〜)
-* **Servo Kit 360** フレームとタイヤもセットになった便利なキット (約1,700円)
+* **マイクロサーボ ([FS90](https://akizukidenshi.com/catalog/g/g114806/) / [FS90R](https://akizukidenshi.com/catalog/g/g113206/))** 定番のパーツ (3個で約1,500円）より頑丈な[SG92R](https://akizukidenshi.com/catalog/g/g108914/)や[SG90-HV](https://akizukidenshi.com/catalog/g/g114382/)もあり
+* **[Servo Kit 360](https://ssci.to/6479)** フレームとタイヤもセットになった便利なキット (約1,700円)
 
 ### 5. フレーム（体）
 ロボットの見た目と機構そのものです。
 タイヤにゴムを貼るのを忘れずに！
 
-* **3Dプリンタ製フレーム:** 設計データを公開中！
+* **[3Dプリンタ製フレーム](https://makerworld.com/en/models/795780-mini-kawa-robot#profileId-1113049)** 設計データを公開中
 * **自作メカ** 3DCADでオリジナルの構造を設計して、世界に一台の機体をつくろう！
 * **レゴ** 上記のServo Kit 360付属フレームはレゴ互換なので、そこから改造する
 
