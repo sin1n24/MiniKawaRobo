@@ -1,4 +1,18 @@
-<hr style="margin: 20px 0;">
+<div id="translate_wrapper" style="margin-top: 20px; padding-top: 15px; border-top: 1px solid #eee; transform: scale(0.85); transform-origin: left top;">
+  <div style="font-size: 13px; color: #666; margin-bottom: 5px;">Translate / 翻訳</div>
+  <div id="google_translate_element"></div>
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({
+        pageLanguage: 'ja', 
+        includedLanguages: 'en,zh-CN,zh-TW,ko,es,fr,de',
+        layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+      }, 'google_translate_element');
+    }
+  </script>
+  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</div>
+
 <div style="font-size: 0.9em; color: #666;">
   <p><strong>ミニかわロボについて</strong></p>
   <ul style="list-style: none; padding: 0;">
