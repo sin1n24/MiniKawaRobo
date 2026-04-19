@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "製作例の紹介"
-nav_order: 6
+nav_order: 7
 ---
 
 # 製作例の紹介
