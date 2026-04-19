@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "技術紹介"
-nav_order: 5
+nav_order: 60
 ---
 
 # 技術紹介
