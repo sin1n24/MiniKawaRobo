@@ -15,7 +15,7 @@ nav_order: 4
 
 ## サンプルプログラムの提供について
 
-本プロジェクトでは、リポジトリ内の **`samplecode/`** ディレクトリに、ミニかわロボを動かすためのサンプルプログラムを順次公開していく予定です。
+本プロジェクトでは、リポジトリ内の **`samplecode`** ディレクトリに、ミニかわロボを動かすためのサンプルプログラムを順次公開していく予定です。
 
 - **[samplecode/ ディレクトリを見る](https://github.com/sin1n24/MiniKawaRobo/tree/main/samplecode)**
   - ※GitHubのリポジトリを直接参照してください。
@@ -34,7 +34,7 @@ M5Atom S3やM5Capsuleを使用した基本的な構成と、スマートフォ�
 **主な内容:**
 - M5ボードの選択と基本設定
 - サーボの接続方法
-- スマートフォンアプリ（UGOKU Pad、Blynk IoTなど）を使用した操縦
+- スマートフォンアプリ（UGOKU Pad、Blynkなど）を使用した操縦
 - 簡単なトラブルシューティング
 
 <iframe class="note-embed" src="https://note.com/embed/notes/n0a02cd8ad297" style="border: 0; display: block; max-width: 99%; width: 494px; padding: 0px; margin: 10px 0px; position: static; visibility: visible;" height="400"></iframe><script async src="https://note.com/scripts/embed.js" charset="utf-8"></script>
@@ -142,8 +142,9 @@ M5Atom S3を使用した、より詳細なプログラミング例を紹介し�
 
 3Dプリンタでフレームを製作する際に使用できる設計データが、以下のプラットフォームで公開されています：
 
-- **[Makerworld](https://makerworld.com/)** - 公式の設計データ
-- **[Thingiverse](https://www.thingiverse.com/)** - コミュニティによる設計データ
+- **[ミニかわロボ 試作ロボ](https://makerworld.com/en/models/795780-mini-kawa-robot#profileId-1113049)** - 一番最初に作成したお試しロボです
+- **[ミニかわロボ用リング](https://makerworld.com/en/models/795782-obstacles-for-tabletop-robot-fields#profileId-1112904)** - リング形状の指定はありませんが、参考にして下さい
+- **[リング用の台座](https://makerworld.com/en/models/1830107-robot-ring-base#profileId-1954183)** - 必須ではありませんが、台座を入れて高さがあると競技として判定しやすくなります
 
 ### ブログ
 

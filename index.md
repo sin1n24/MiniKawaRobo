@@ -9,13 +9,13 @@ nav_order: 1
 是非この資料を参考にロボットを製作して、バトルを通じて交流しましょう！
 ルールはありますが厳密には運用しませんので、是非ゆるく盛り上がって楽しみましょう！
 
-# まずは動画をご覧下さい
+# まずは動画を見て下さい！
 <iframe width="560" height="315" src="https://www.youtube.com/embed/M2px15weXyM?si=3o9jz7mzHSSR9KFB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 ※音量注意
 
 # 新着情報
-+ 【26/04/19】 2026/5/30-31 国内最大級の3DプリンタのイベントJRRFに出展します！詳細は[こちら](https://sin1n24.hatenablog.com/entry/2026/03/24/223605)
-+ 【26/04/07】 [ルールv1.2](docs/rule.md)を更新しました。条件付きで僅かに緩和する方向なので従来のロボットもそのままで大丈夫です。
++ 【26/04/19】 26/5/30-31 国内最大級の3DプリンタのイベントJRRFに出展します！詳細は[こちら](https://sin1n24.hatenablog.com/entry/2026/03/24/223605)
++ 【26/04/09】 [ルールv1.2](docs/rule.md)を更新しました。条件付きで僅かに緩和する方向なので従来のロボットもそのままで大丈夫です。
 
 # コンテンツ
 
@@ -30,6 +30,7 @@ nav_order: 1
 
 + **[競技ルール](docs/rule.md)** - 詳細な競技ルール。サイズ、重量、動力などの制限や、勝敗の定義が記載されています。
 + **[ミニ大会](docs/archive.md)** - 2025年から各地で開催しているミニ大会の記録と、今後の開催予定。
++ **[ワークショップ](docs/workshop.md)** - 過去の開催実績や、秋葉原での開催検討など、最新のワークショップ情報。
 
 ## 技術情報・事例
 
