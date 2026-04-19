@@ -48,7 +48,7 @@ Markdownファイルを編集します。新しいページを追加する場合
 ---
 layout: default
 title: "ページタイトル"
-nav_order: 9
+nav_order: 10
 ---
 ```
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "ミニ大会"
-nav_order: 5
+nav_order: 6
 ---
 
 # ミニ大会・イベント
