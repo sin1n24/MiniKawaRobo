@@ -16,5 +16,6 @@ aux_links:
 
 plugins:
   - jekyll-remote-theme
+  - jekyll-include-cache
 
 remote_theme: labsyspharm/just-the-docs-lsp
