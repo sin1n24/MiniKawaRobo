@@ -7,17 +7,15 @@ hero_heading: "ミニかわロボ"
 hero_body: "手のひらサイズの格闘ロボット競技「ミニかわロボ」の公式リソース集です。"
 hero_image: "/assets/hero.jpg"
 hero_ctas:
-  - label: "ドキュメントを読む"
-    link: "#getting-started"
-  - label: "GitHubを見る"
-    link: "https://github.com/..."
-    target: "_blank"
-
+  - label: "つくりたい"
+    link: "docs/howto.html"
+  - label: "ルールを知りたい"
+    link: "docs/rule.html"
 ---
-# ミニかわロボ
-手のひらサイズの格闘ロボット競技『ミニかわロボ』の公式リソース集です。
 是非この資料を参考にロボットを製作して、バトルを通じて交流しましょう！
+
 ルールはありますが厳密には運用しませんので、是非ゆるく盛り上がって楽しみましょう！
+
 
 # まずは動画を見て下さい！
 <iframe width="560" height="315" src="https://www.youtube.com/embed/M2px15weXyM?si=3o9jz7mzHSSR9KFB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

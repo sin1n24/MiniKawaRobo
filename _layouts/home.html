@@ -3,15 +3,16 @@ layout: default
 ---
 
 {% if page.hero_heading %}
-<div class="hero-section" style="text-align: center; padding: 4rem 2rem; background-color: #f3f6f9; border-radius: 8px; margin-bottom: 3rem;">
+<div class="hero-section" style="text-align: center; padding: 4rem 2rem; background-color: #f3f6f9; background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('{{ page.hero_image | relative_url }}'); background-size: cover; background-position: center; border-radius: 8px; margin-bottom: 3rem;">
   
-  <h1 class="fs-9 fw-700" style="margin-top: 0;">{{ page.hero_heading }}</h1>
-  <p class="fs-5" style="color: #5c5962; margin-bottom: 2rem;">{{ page.hero_body }}</p>
+
+  <h1 class="fs-9 fw-700" style="margin-top: 0; color: #000000; text-shadow: 1px 1px 4px rgba(0,0,0,0.6);">{{ page.hero_heading }}</h1>
+  <p class="fs-5" style="color: #000000; margin-bottom: 2rem; text-shadow: 1px 1px 4px rgba(0,0,0,0.6);">{{ page.hero_body }}</p>
   
   {% if page.hero_ctas %}
   <div>
     {% for cta in page.hero_ctas %}
-    <a href="{{ cta.link }}" class="btn {% if forloop.first %}btn-primary{% endif %} fs-5" {% if cta.target %}target="{{ cta.target }}"{% endif %} style="margin-right: 1rem;">
+    <a href="{{ cta.link }}" class="btn {% if forloop.first %}btn-primary{% endif %} fs-5" {% if cta.target %}target="{{ cta.target }}"{% endif %} style="margin-right: 1rem; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
       {{ cta.label }}
     </a>
     {% endfor %}
@@ -22,3 +23,4 @@ layout: default
 {% endif %}
 
 {{ content }}
+
