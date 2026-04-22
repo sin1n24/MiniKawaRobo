@@ -16,3 +16,5 @@ aux_links:
 
 plugins:
   - jekyll-remote-theme
+
+remote_theme: labsyspharm/just-the-docs-lsp
