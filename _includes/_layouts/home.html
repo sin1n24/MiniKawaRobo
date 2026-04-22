@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+{% if page.hero_heading %}
+<div class="hero-section" style="text-align: center; padding: 4rem 2rem; background-color: #f3f6f9; border-radius: 8px; margin-bottom: 3rem;">
+  
+  <h1 class="fs-9 fw-700" style="margin-top: 0;">{{ page.hero_heading }}</h1>
+  <p class="fs-5" style="color: #5c5962; margin-bottom: 2rem;">{{ page.hero_body }}</p>
+  
+  {% if page.hero_ctas %}
+  <div>
+    {% for cta in page.hero_ctas %}
+    <a href="{{ cta.link }}" class="btn {% if forloop.first %}btn-primary{% endif %} fs-5" {% if cta.target %}target="{{ cta.target }}"{% endif %} style="margin-right: 1rem;">
+      {{ cta.label }}
+    </a>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+</div>
+{% endif %}
+
+{{ content }}

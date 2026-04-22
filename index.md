@@ -1,7 +1,18 @@
 ---
-layout: default
+layout: home
 title: "はじめに"
 nav_order: 1
+
+hero_heading: "ミニかわロボ"
+hero_body: "手のひらサイズの格闘ロボット競技「ミニかわロボ」の公式リソース集です。"
+hero_image: "/assets/hero.jpg"
+hero_ctas:
+  - label: "ドキュメントを読む"
+    link: "#getting-started"
+  - label: "GitHubを見る"
+    link: "https://github.com/..."
+    target: "_blank"
+
 ---
 # ミニかわロボ
 手のひらサイズの格闘ロボット競技『ミニかわロボ』の公式リソース集です。
