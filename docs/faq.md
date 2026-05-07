@@ -179,10 +179,11 @@ A. 現在、公式サイトへの投稿フォームは準備中です。以下�
 
 A. 技術的なサポートは、以下の場所で受けることができます：
 
-1. **[GitHub Issues](https://github.com/sin1n24/MiniKawaRobo/issues)** - バグ報告や機能提案
-2. **[SNS](https://x.com/sin1west)** - 質問や相談
-3. **[ブログのコメント](https://sin1n24.hatenablog.com/archive/category/ミニかわロボ)** - 記事に関する質問
-4. **コミュニティイベント** - 大会やワークショップでの直接相談
+1. **[ミニかわBot](bot.md)** - AIが24時間いつでも質問に答えます
+2. **[GitHub Issues](https://github.com/sin1n24/MiniKawaRobo/issues)** - バグ報告や機能提案
+3. **[SNS](https://x.com/sin1west)** - 質問や相談
+4. **[ブログのコメント](https://sin1n24.hatenablog.com/archive/category/ミニかわロボ)** - 記事に関する質問
+5. **コミュニティイベント** - 大会やワークショップでの直接相談
 
 ### Q17. 目的の情報がどこにあるかわかりません。
 
