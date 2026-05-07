@@ -8,7 +8,7 @@ nav_order: 85
 
 ミニかわBot（ミニかわロボ初心者相談AI）へようこそ！
 
-![ミニかわBot説明](/assets/bot.jpg)
+![ミニかわBot説明](../assets/bot.jpg)
 
 大会の最新ルールや過去の技術ノウハウを学習(RAG)したAIボットです。
 [コンテスト](https://sin1n24.hatenablog.com/entry/2026/05/06/040320)に投稿して頂いた記事や主催者の記事を学習データとして活用しています。
