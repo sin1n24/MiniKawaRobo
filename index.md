@@ -57,3 +57,7 @@ hero_ctas:
 ---
 
 ![ミニかわロボのイメージステッカー](assets\Sticker.png){: width="300" }
+
+---
+
+運営：[sin1's studio](https://sin1.studio/)
