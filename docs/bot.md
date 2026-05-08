@@ -54,5 +54,7 @@ AIはもっともらしく間違った言うことがありますので、その
 
 以上をご理解し**自己責任**で使って頂ける方のみ、以下からご利用頂けます。
 
+NotebookLMはGoogleのサービスなのでログインが必要ですが、私（主催者）にはログインや会話の情報は提供されません。
+
 [ミニかわBotを利用する (NotebookLM)](https://notebooklm.google.com/notebook/2570853c-8bd8-4135-a3b1-28f1e9fbbb84){: .btn .btn-primary }
 
