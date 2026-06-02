@@ -37,7 +37,7 @@ nav_order: 70
   background: #f5f5f5;
 }
 .showcase-body { padding: 1rem 1.1rem 1.2rem; }
-.showcase-name { margin: 0 0 .2rem; font-size: 1.15rem; }
+.showcase-name { margin: 0 0 .2rem; font-size: 1.15rem; font-weight: 700; line-height: 1.3; }
 .showcase-creator { margin: 0 0 .6rem; color: #666; font-size: .85rem; }
 .showcase-desc p { margin: .4rem 0; }
 .showcase-desc ul { margin: .4rem 0 0; padding-left: 1.2rem; }
@@ -56,7 +56,7 @@ nav_order: 70
     <img class="showcase-img" src="{{ m.images[0] | prepend: '/' | relative_url }}" alt="{{ m.name }}" loading="lazy">
     {% endif %}
     <div class="showcase-body">
-      <h3 class="showcase-name">{{ m.name }}</h3>
+      <div class="showcase-name">{{ m.name }}</div>
       {% if m.creator and m.creator != "" %}<p class="showcase-creator">製作: {{ m.creator }}</p>{% endif %}
       <div class="showcase-desc">{{ m.description | markdownify }}</div>
       {% if m.video_url and m.video_url != "" %}
