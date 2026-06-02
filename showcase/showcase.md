@@ -13,25 +13,59 @@ nav_order: 70
 
 ---
 
-## ミニレパード
-![ロボ写真](./MiniLeopard.jpg)
+<style>
+.showcase-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+.showcase-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,.06);
+  display: flex;
+  flex-direction: column;
+}
+.showcase-img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  display: block;
+  background: #f5f5f5;
+}
+.showcase-body { padding: 1rem 1.1rem 1.2rem; }
+.showcase-name { margin: 0 0 .2rem; font-size: 1.15rem; }
+.showcase-creator { margin: 0 0 .6rem; color: #666; font-size: .85rem; }
+.showcase-desc p { margin: .4rem 0; }
+.showcase-desc ul { margin: .4rem 0 0; padding-left: 1.2rem; }
+.showcase-desc li { margin: .15rem 0; }
+.showcase-video a { font-weight: 600; }
+</style>
 
-**ダブルヘリカルギア（やまば歯車）**がチャームポイントの、実戦的なロボットです。複雑なギア機構を3Dプリンタで出力し、小型ながら力強い動きを実現しています。
+## 公式の製作例
 
-- **制御**: [AtomS3](https://ssci.to/8670) + [4サーボ接続基板キット](https://ssci.to/11122)
-- **動力**: 360°サーボ x2（移動用）、180°サーボ x1（アーム用）
-- **特徴**: 3Dプリントされたフレームに、ダブルヘリカルギアを搭載。
-- **リソース**: [ロボット用のプログラム](https://sin1n24.hatenablog.com/entry/2025/10/18/231400)
-
-## ミニカプセルロボ
-![ロボ写真](./MiniCapsuleRobo.jpg)
-
-市販のパーツを組み合わせるだけで、とりあえず動作させることができる**お手軽なロボット**です。体当たりが主な攻撃手段ですが、初めての一台として最適です。
-
-- **制御**: [M5Capsule](https://ssci.to/9272) + [5サーボ接続基板キット](https://ssci.to/11121)
-- **動力**: [Servo Kit 360'](https://ssci.to/6479)
-- **特徴**: M5Capsuleの内蔵バッテリーを活用し、配線を極限までシンプルにしています。
-- **リソース**: [ロボット用のプログラム](https://sin1n24.hatenablog.com/entry/2025/10/18/231400)
+{% assign entries = site.data.showcase | sort %}
+<div class="showcase-grid">
+{% for item in entries %}
+  {% assign m = item[1] %}
+  <div class="showcase-card" data-aos="fade-up">
+    {% if m.images and m.images.size > 0 %}
+    <img class="showcase-img" src="{{ m.images[0] | prepend: '/' | relative_url }}" alt="{{ m.name }}" loading="lazy">
+    {% endif %}
+    <div class="showcase-body">
+      <h3 class="showcase-name">{{ m.name }}</h3>
+      {% if m.creator and m.creator != "" %}<p class="showcase-creator">製作: {{ m.creator }}</p>{% endif %}
+      <div class="showcase-desc">{{ m.description | markdownify }}</div>
+      {% if m.video_url and m.video_url != "" %}
+      <p class="showcase-video"><a href="{{ m.video_url }}" target="_blank" rel="noopener">▶ 動画を見る</a></p>
+      {% endif %}
+    </div>
+  </div>
+{% endfor %}
+</div>
 
 ---
 

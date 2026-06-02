@@ -1,0 +1,14 @@
+id: "002"
+name: "ミニカプセルロボ"
+creator: "sin1"
+description: |
+  市販のパーツを組み合わせるだけで、とりあえず動作させることができる**お手軽なロボット**です。体当たりが主な攻撃手段ですが、初めての一台として最適です。
+
+  - **制御**: [M5Capsule](https://ssci.to/9272) + [5サーボ接続基板キット](https://ssci.to/11121)
+  - **動力**: [Servo Kit 360'](https://ssci.to/6479)
+  - **特徴**: M5Capsuleの内蔵バッテリーを活用し、配線を極限までシンプルにしています。
+  - **リソース**: [ロボット用のプログラム](https://sin1n24.hatenablog.com/entry/2025/10/18/231400)
+video_url: ""
+updated_at: "2026-06-03T00:00:00+09:00"
+images:
+  - "assets/showcase/002/01.jpg"
