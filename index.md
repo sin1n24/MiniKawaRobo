@@ -22,7 +22,7 @@ hero_ctas:
 ※音量注意
 
 # 新着情報
-+ 【26/5/30-31 】 国内最大級の3DプリンタのイベントJRRFに出展＆ミニ大会を開催しました！結果は[ミニ大会](docs/archive.html)に
++ 【26/06/01】 26/05/30-31 [JRRF 2026](https://japanreprapfestival.com/)にてミニ大会を開催しました！詳細は[こちら](docs/archive.md)から。
 + 【26/05/11】 26/05/09-10 [つくろがや！](https://tsukurogaya.nagoya/)に出展しました！報告は[こちら](https://x.com/sin1west/status/2052669653626094036)から。
 + 【26/05/07】 26/05/06 [生成AIなんでも展示会 Vol.5](https://www.genai-expo.com/)に出展しました！報告は[こちら](https://x.com/sin1west/status/2051863112140378419)から。
 + 【26/05/07】 初心者相談AI「[ミニかわBot](docs/bot.md)」を公開しました。ロボット作りで迷ったら相談してみて下さい！
