@@ -26,7 +26,6 @@ hero_ctas:
 + 【26/05/11】 26/05/09-10 [つくろがや！](https://tsukurogaya.nagoya/)に出展しました！報告は[こちら](https://x.com/sin1west/status/2052669653626094036)から。
 + 【26/05/07】 26/05/06 [生成AIなんでも展示会 Vol.5](https://www.genai-expo.com/)に出展しました！報告は[こちら](https://x.com/sin1west/status/2051863112140378419)から。
 + 【26/05/07】 初心者相談AI「[ミニかわBot](docs/bot.md)」を公開しました。ロボット作りで迷ったら相談してみて下さい！
-+ 【26/04/19】 26/5/30-31 国内最大級の3Dプリンタのイベント[JRRF](https://japanreprapfestival.com/)に出展＆ミニ大会を開催します！詳細は[こちら](https://sin1n24.hatenablog.com/entry/2026/03/24/223605)
 + 【26/04/09】 [ルールv1.2](docs/rule.md)を更新しました。基本的に緩和する方向なので従来のロボットもそのままで大丈夫です。
 
 # コンテンツ
