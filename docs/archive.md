@@ -24,7 +24,7 @@ nav_order: 40
 | 2025/11/01 | 電大杯  | ぷち矛くん | 東京 北千住 | 10 |
 | 2025/12/06 | 立命杯  | ミニレパードY | 滋賀 南草津 | 6 |
 | 2026/03/01 | [メイカーズながおかまつり](https://www.city.nagaoka.niigata.jp/sangyou/cate01/mono-fair2.html)  | あるごまる | 長岡 アオーレ | 4 |
-| **2026/05/30** | [JRRF 2026](https://japanreprapfestival.com/)-day1  | レパードS | 東京 流通センター | 5 |
+| **2026/05/30** | [JRRF 2026](https://japanreprapfestival.com/)-day1  | ミニレパードS | 東京 流通センター | 5 |
 | **2026/05/31** | [JRRF 2026](https://japanreprapfestival.com/)-day2  | サンテラス英語数学算数教室 | 東京 流通センター | 4 |
 
 ## 今後の開催予定について
