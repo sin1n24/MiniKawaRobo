@@ -74,5 +74,7 @@ nav_order: 70
 
 ---
 
-## 製作例の投稿について
-現在、公式サイトへの投稿フォームを準備中です。ご自身の製作したロボットを掲載希望の方は、SNS（X/Twitter）でハッシュタグ **#ミニかわロボ** を付けて投稿いただくか、[GitHub Issues](https://github.com/sin1n24/MiniKawaRobo/issues)でご紹介ください！
+## 図鑑への登録について
+ご自身が製作したミニかわロボを、この図鑑に掲載してみませんか？ **[製作例 登録フォーム](https://forms.gle/xwG7DzkVWiRUbbFR8)** から、機体名・製作者・説明・写真（JPG）などを送信するだけで登録できます（写真のアップロードにGoogleアカウントでのログインが必要です）。
+
+このほか、SNS（X/Twitter）でハッシュタグ **#ミニかわロボ** を付けて投稿いただくか、[GitHub Issues](https://github.com/sin1n24/MiniKawaRobo/issues) でのご紹介も歓迎しています！
