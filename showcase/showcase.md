@@ -28,6 +28,9 @@ nav_order: 70
   box-shadow: 0 2px 6px rgba(0,0,0,.06);
   display: flex;
   flex-direction: column;
+  /* 基底は可視。読み込み時に一度だけ再生され、必ず opacity:1 で終わる安全なフェード */
+  opacity: 1;
+  animation: showcaseFadeIn .5s ease both;
 }
 .showcase-img {
   width: 100%;
@@ -43,6 +46,13 @@ nav_order: 70
 .showcase-desc ul { margin: .4rem 0 0; padding-left: 1.2rem; }
 .showcase-desc li { margin: .15rem 0; }
 .showcase-video a { font-weight: 600; }
+@keyframes showcaseFadeIn {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .showcase-card { animation: none; }
+}
 </style>
 
 ## 公式の製作例
@@ -51,7 +61,7 @@ nav_order: 70
 <div class="showcase-grid">
 {% for item in entries %}
   {% assign m = item[1] %}
-  <div class="showcase-card" data-aos="fade-up">
+  <div class="showcase-card">
     {% if m.images and m.images.size > 0 %}
     <img class="showcase-img" src="{{ m.images[0] | prepend: '/' | relative_url }}" alt="{{ m.name }}" loading="lazy">
     {% endif %}
