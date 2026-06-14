@@ -1,8 +1,8 @@
 id: "004"
 name: "Windmill Mini"
 creator: "Exem"
-description: "斜めに回転するアームで突撃！制御は M5Atomと 4サーボ接続基板セット、 操作はPS4コンです。［プログラム］（https://note.com/exem/n/ne41ee1e65189?sub_rt=share_b）と［解説］（https://note.com/exem/n/n4e82001dec61）を公開中。"
-video_url: "https://x.com/exe_gd/status/1982730831727882319/video/1?s=46"
-updated_at: "2026-06-14T21:25:40+09:00"
+description: "斜めに回転するアームで突撃！制御は M5Atomと 4サーボ接続基板セット、 操作はPS4コンです。[プログラム](https://note.com/exem/n/ne41ee1e65189?sub_rt=share_b)と[解説](https://note.com/exem/n/n4e82001dec61)を公開中。"
+video_url: ""
+updated_at: "2026-06-14T21:31:28+09:00"
 images:
   - "assets/showcase/004/01.jpg"
