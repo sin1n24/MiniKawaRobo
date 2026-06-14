@@ -27,12 +27,25 @@ nav_order: 70
   opacity: 1;
   animation: showcaseFadeIn .5s ease both;
 }
+.showcase-imgwrap { position: relative; }
 .showcase-img {
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
   display: block;
   background: #f5f5f5;
+}
+.showcase-no {
+  position: absolute;
+  top: .5rem;
+  left: .5rem;
+  background: rgba(0,0,0,.66);
+  color: #fff;
+  font-size: .78rem;
+  font-weight: 700;
+  letter-spacing: .04em;
+  padding: .15rem .55rem;
+  border-radius: 999px;
 }
 .showcase-body { padding: 1rem 1.1rem 1.2rem; }
 .showcase-name { margin: 0 0 .2rem; font-size: 1.15rem; font-weight: 700; line-height: 1.3; }
@@ -55,9 +68,12 @@ nav_order: 70
 {% for item in entries %}
   {% assign m = item[1] %}
   <div class="showcase-card">
-    {% if m.images and m.images.size > 0 %}
-    <img class="showcase-img" src="{{ m.images[0] | prepend: '/' | relative_url }}" alt="{{ m.name }}" loading="lazy">
-    {% endif %}
+    <div class="showcase-imgwrap">
+      {% if m.images and m.images.size > 0 %}
+      <img class="showcase-img" src="{{ m.images[0] | prepend: '/' | relative_url }}" alt="{{ m.name }}" loading="lazy">
+      {% endif %}
+      <span class="showcase-no">No.{{ m.id }}</span>
+    </div>
     <div class="showcase-body">
       <div class="showcase-name">{{ m.name }}</div>
       {% if m.creator and m.creator != "" %}<p class="showcase-creator">製作: {{ m.creator }}</p>{% endif %}
