@@ -1,7 +1,7 @@
 id: "001"
-name: "ミニレパード"
+name: "ミニカプセルロボ"
 creator: "sin1"
-description: "ダブルヘリカルギアがチャームポイント。制御は [AtomS3](https://ssci.to/8670) と [4サーボ接続基板キット](https://ssci.to/11122) を使用。[プログラム公開中](https://sin1n24.hatenablog.com/entry/2025/10/18/231400)。"
+description: "市販のパーツを組み合わせたお手軽なロボットです。攻撃手段は体当たりのみ。制御は [M5Capsule](https://ssci.to/9272) と [5サーボ接続基板キット](https://ssci.to/11121)、動力は [Servo Kit 360'](https://ssci.to/6479)。[プログラム公開中](https://sin1n24.hatenablog.com/entry/2025/10/18/231400)。"
 video_url: ""
 updated_at: "2026-06-03T00:00:00+09:00"
 images:
