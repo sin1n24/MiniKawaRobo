@@ -36,11 +36,11 @@ nav_order: 10
 
 ### 1. ミニかわロボの提案と初期コンセプト
 提案者による最初の提案記事です。なぜこの規格が必要だったのか、どのような課題を解決しようとしているのかが詳しく述べられています。
-<iframe src="https://hatenablog-parts.com/embed?url=https://sin1n24.hatenablog.com/entry/2023/11/30/234739" style="border: 0; display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;" frameborder="0" scrolling="no"></iframe>
+→ [記事を読む](https://sin1.studio/blog/2023-11-30-234739/)
 
 ### 2. 活動報告と今後の展望（2025-2026）
 2025年の各地での大会開催レポートや、M5Stackファミリー（ｽﾀｯｸﾁｬﾝ等）との親和性について紹介されています。
-<iframe src="https://hatenablog-parts.com/embed?url=https://sin1n24.hatenablog.com/entry/2025/12/24/233513" style="border: 0; display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;" frameborder="0" scrolling="no"></iframe>
+→ [記事を読む](https://sin1.studio/blog/2025-12-24-233513/)
 
 ### 3. ProtoPedia：詳細な設計データとプロセス
 ProtoPediaにはM5Stackコンテスト向けに編集した製作記事を載せています。
