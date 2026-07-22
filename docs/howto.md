@@ -70,8 +70,6 @@ nav_order: 20
 ミニかわロボに関する深いノウハウは、以下のリンク集からも参照できます。
 
 * [**ルール全文・意見募集**](https://sin1n24.github.io/MiniKawaRobo/rules/)
-* [**設計・製作・運用のポイント**](https://sin1n24.hatenablog.com/archive/category/ミニかわロボ)
+* [**設計・製作・運用のポイント**](https://sin1.studio/blog/category/ミニかわロボ/)
 
-<iframe src="https://hatenablog-parts.com/embed?url=https://sin1n24.hatenablog.com/entry/2023/12/18/000338" 
-        style="border: 0; display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;" 
-        frameborder="0" scrolling="no"></iframe>
+→ [ミニかわロボ設計・製作・操縦・運用のポイント](https://sin1.studio/blog/2023-12-18-000338/)

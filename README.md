@@ -87,7 +87,7 @@ git push origin your-branch-name
 
 - **GitHub Issues** - バグ報告や機能提案
 - **[SNS（X/Twitter）](https://x.com/sin1west)** - 質問や相談
-- **[公式ブログ](https://sin1n24.hatenablog.com/archive/category/ミニかわロボ)** - 技術情報やイベント情報
+- **[公式ブログ](https://sin1.studio/blog/category/ミニかわロボ/)** - 技術情報やイベント情報
 
 ---
 
