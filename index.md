@@ -22,6 +22,7 @@ hero_ctas:
 ※音量注意
 
 # 新着情報
++ 【26/08/23】 本家「[かわさきロボット競技大会](https://kawasaki-sanshinkaikan.jp/robo/)」が開催されます！ミニかわロボの元になった大会です。ぜひ応援・観戦にどうぞ。
 + 【26/07/04】 [中島杯](https://nkj-kawarobo.blog.jp/)にてミニ大会を開催予定です！詳細は[こちら](https://sin1.studio/blog/2026-06-13-045210/)から。
 + 【26/05/30-31】 [JRRF 2026](https://japanreprapfestival.com/)にてミニ大会を開催しました！開催報告は[こちら](https://sin1.studio/blog/2026-06-13-045210/)から。
 + 【26/05/09-10】 [つくろがや！](https://tsukurogaya.nagoya/)に出展しました！報告は[こちら](https://x.com/sin1west/status/2052669653626094036)から。
