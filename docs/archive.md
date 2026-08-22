@@ -27,6 +27,8 @@ nav_order: 40
 | **2026/05/30** | [JRRF 2026](https://japanreprapfestival.com/)-day1  | ミニレパードS | 東京 流通センター | 5 |
 | **2026/05/31** | [JRRF 2026](https://japanreprapfestival.com/)-day2  | サンテラス英語数学算数教室 | 東京 流通センター | 4 |
 
+機体ごとの詳しい戦績は、[ミニかわロボ図鑑]({% link showcase/showcase.md %}) の各カードでも確認できます。
+
 ## 今後の開催予定について
 
 最新の開催予定は、以下のチャネルでお知らせしています：
