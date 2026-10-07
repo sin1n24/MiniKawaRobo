@@ -11,6 +11,8 @@ hero_ctas:
     link: "docs/howto.html"
   - label: "ルールを知りたい"
     link: "docs/rule.html"
+  - label: "ロボットを見たい"
+    link: "showcase/showcase.html"
 ---
 是非この資料を参考にロボットを製作して、バトルを通じて交流しましょう！
 

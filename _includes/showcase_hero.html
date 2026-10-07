@@ -1,5 +1,5 @@
 {%- comment -%}
-  図鑑の機体写真を番号順に切り替えて見せるヒーロー用スライド。
+  図鑑の機体写真をランダムな順に切り替えて見せるヒーロー用スライド (順番は表示のたびに変わる)。
   親要素 (.mkr-hero) の中に置く。画像は表示直前に読み込む (全機体ぶんを先読みしない)。
   JS が動かない場合は1枚目が出たままになる。
 {%- endcomment -%}
@@ -49,6 +49,10 @@
   if (!hero) return;
   var list = JSON.parse(hero.querySelector('.mkr-hero-data').textContent);
   if (!list.length) return;
+  for (var k = list.length - 1; k > 0; k--) {
+    var j = Math.floor(Math.random() * (k + 1));
+    var t = list[k]; list[k] = list[j]; list[j] = t;
+  }
   var slides = hero.querySelectorAll('.mkr-hero-slide');
   var caption = hero.querySelector('.mkr-hero-caption');
   var base = caption.getAttribute('href');

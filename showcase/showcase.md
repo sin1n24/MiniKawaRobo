@@ -67,7 +67,7 @@ nav_order: 70
   background-image: none !important;
 }
 .showcase-xpost:hover { background: #000; }
-.showcase-hero { aspect-ratio: 16 / 7; margin: 0 0 1.5rem; }
+.showcase-hero { aspect-ratio: 4 / 3; margin: 0 0 1.5rem; }
 .showcase-body { padding: 1rem 1.1rem 1.2rem; }
 .showcase-name { margin: 0 0 .2rem; font-size: 1.15rem; font-weight: 700; line-height: 1.3; }
 .showcase-creator { margin: 0 0 .6rem; color: #666; font-size: .85rem; }
@@ -107,8 +107,7 @@ nav_order: 70
   {% assign m = item[1] %}
   {% assign m_results = result_list | where_exp: "r", "r[1].machine_id == m.id" %}
   {% assign win_count = m_results | where_exp: "r", "r[1].result_rank == 1" | size %}
-  {% capture x_text %}ミニかわロボ図鑑 No.{{ m.id }}「{{ m.name }}」{% if m.creator and m.creator != "" %}（製作: {{ m.creator }}）{% endif %}
-#ミニかわロボ{% endcapture %}
+  {% capture x_text %}#ミニかわロボ 図鑑 No.{{ m.id }}「{{ m.name }}」{% if m.creator and m.creator != "" %}（製作: {{ m.creator }}）{% endif %}{% endcapture %}
   {% capture x_url %}{{ '/showcase/robots/' | append: m.id | append: '/' | absolute_url }}{% endcapture %}
   <div class="showcase-card" id="m{{ m.id }}">
     <div class="showcase-imgwrap">
