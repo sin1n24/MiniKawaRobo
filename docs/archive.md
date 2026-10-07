@@ -27,7 +27,7 @@ nav_order: 40
 | **2026/05/30** | [JRRF 2026](https://japanreprapfestival.com/)-day1  | ミニレパードS | 東京 流通センター | 5 |
 | **2026/05/31** | [JRRF 2026](https://japanreprapfestival.com/)-day2  | サンテラス英語数学算数教室 | 東京 流通センター | 4 |
 | **2026/10/03** | [KHK杯](https://www.khkgears.co.jp/about_khk/khkcup/)  | （練習会） | 埼玉 川口 | 5 |
-| **2026/10/31** | [電大杯](https://x.com/TDU_AOC/status/2104572838133014616)  | （実施予定→[案内記事](https://sin1.studio/blog/2026-10-07-minikawarobo-khk-cup/)） | 東京 北千住 | - |
+| **2026/10/31** | [電大杯](https://x.com/TDU_AOC/status/2104572838133014616)  | [（実施予定）](https://sin1.studio/blog/2026-10-07-minikawarobo-khk-cup/) | 東京 北千住 | [募集中](https://sin1.studio/blog/2026-10-07-minikawarobo-khk-cup/) |
 
 機体ごとの詳しい戦績は、[ミニかわロボ図鑑]({% link showcase/showcase.md %}) の各カードでも確認できます。
 
