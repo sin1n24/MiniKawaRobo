@@ -4,6 +4,10 @@ title: "ミニかわロボ図鑑"
 nav_order: 70
 ---
 
+<div class="mkr-hero showcase-hero">
+{% include showcase_hero.html %}
+</div>
+
 # ミニかわロボ図鑑
 
 これまでに製作されたミニかわロボの機体を、図鑑形式で紹介します。公式キットをベースにした作例から、独自の工夫を凝らしたカスタム機まで、各機体の構成や特徴をまとめています。
@@ -23,6 +27,7 @@ nav_order: 70
   box-shadow: 0 2px 6px rgba(0,0,0,.06);
   display: flex;
   flex-direction: column;
+  scroll-margin-top: 5rem;
   /* 基底は可視。読み込み時に一度だけ再生され、必ず opacity:1 で終わる安全なフェード */
   opacity: 1;
   animation: showcaseFadeIn .5s ease both;
@@ -47,6 +52,22 @@ nav_order: 70
   padding: .15rem .55rem;
   border-radius: 999px;
 }
+.showcase-xpost {
+  position: absolute;
+  top: .5rem;
+  right: .5rem;
+  background: rgba(0,0,0,.8);
+  color: #fff !important;
+  font-size: .78rem;
+  font-weight: 700;
+  line-height: 1.5;
+  padding: .15rem .65rem;
+  border-radius: 999px;
+  text-decoration: none;
+  background-image: none !important;
+}
+.showcase-xpost:hover { background: #000; }
+.showcase-hero { aspect-ratio: 16 / 7; margin: 0 0 1.5rem; }
 .showcase-body { padding: 1rem 1.1rem 1.2rem; }
 .showcase-name { margin: 0 0 .2rem; font-size: 1.15rem; font-weight: 700; line-height: 1.3; }
 .showcase-creator { margin: 0 0 .6rem; color: #666; font-size: .85rem; }
@@ -86,12 +107,16 @@ nav_order: 70
   {% assign m = item[1] %}
   {% assign m_results = result_list | where_exp: "r", "r[1].machine_id == m.id" %}
   {% assign win_count = m_results | where_exp: "r", "r[1].result_rank == 1" | size %}
-  <div class="showcase-card">
+  {% capture x_text %}ミニかわロボ図鑑 No.{{ m.id }}「{{ m.name }}」{% if m.creator and m.creator != "" %}（製作: {{ m.creator }}）{% endif %}
+#ミニかわロボ{% endcapture %}
+  {% capture x_url %}{{ '/showcase/robots/' | append: m.id | append: '/' | absolute_url }}{% endcapture %}
+  <div class="showcase-card" id="m{{ m.id }}">
     <div class="showcase-imgwrap">
       {% if m.images and m.images.size > 0 %}
       <img class="showcase-img" src="{{ m.images[0] | prepend: '/' | relative_url }}" alt="{{ m.name }}" loading="lazy">
       {% endif %}
       <span class="showcase-no">No.{{ m.id }}</span>
+      <a class="showcase-xpost" href="https://x.com/intent/post?text={{ x_text | url_encode }}&url={{ x_url | url_encode }}" target="_blank" rel="noopener" aria-label="{{ m.name }} をXでPOST">XでPOST</a>
     </div>
     <div class="showcase-body">
       <div class="showcase-name">{{ m.name }}</div>

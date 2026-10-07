@@ -1,0 +1,47 @@
+{%- comment -%}
+  図鑑の機体ごとの共有用ページ (XでPOST のリンク先)。
+  機体の写真を OGP 画像として出すためだけの独立ページで、人が開いたら図鑑の該当カードへ移動する。
+  機体データは _data/showcase/{machine_id}.yml から引くので、上書き登録してもこのファイルの更新は不要。
+{%- endcomment -%}
+{%- assign m = site.data.showcase[page.machine_id] -%}
+{%- assign target = '/showcase/showcase.html' | relative_url | append: '#m' | append: page.machine_id -%}
+{%- assign share_title = 'No.' | append: m.id | append: ' ' | append: m.name | append: '｜ミニかわロボ図鑑' -%}
+{%- assign share_desc = m.description | markdownify | strip_html | strip_newlines | truncate: 110 -%}
+{%- if m.creator and m.creator != "" -%}
+  {%- assign share_desc = '製作: ' | append: m.creator | append: '｜' | append: share_desc -%}
+{%- endif -%}
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ share_title | escape }}</title>
+<meta name="description" content="{{ share_desc | escape }}">
+<meta name="robots" content="noindex, follow">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="{{ site.title | escape }}">
+<meta property="og:title" content="{{ share_title | escape }}">
+<meta property="og:description" content="{{ share_desc | escape }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+{%- if m.images and m.images.size > 0 %}
+<meta property="og:image" content="{{ m.images[0] | prepend: '/' | absolute_url }}">
+<meta name="twitter:card" content="summary_large_image">
+{%- else %}
+<meta name="twitter:card" content="summary">
+{%- endif %}
+<link rel="icon" type="image/x-icon" href="{{ '/assets/favicon.ico' | relative_url }}">
+<script>location.replace({{ target | jsonify }});</script>
+<style>
+  body { font-family: system-ui, sans-serif; max-width: 640px; margin: 2rem auto; padding: 0 1rem; color: #222; }
+  img { width: 100%; border-radius: 10px; }
+  h1 { font-size: 1.3rem; margin: 1rem 0 .2rem; }
+  .creator { color: #666; margin: 0 0 1rem; }
+</style>
+</head>
+<body>
+  {% if m.images and m.images.size > 0 %}<img src="{{ m.images[0] | prepend: '/' | relative_url }}" alt="{{ m.name | escape }}">{% endif %}
+  <h1>No.{{ m.id }} {{ m.name | escape }}</h1>
+  {% if m.creator and m.creator != "" %}<p class="creator">製作: {{ m.creator | escape }}</p>{% endif %}
+  <p><a href="{{ target }}">ミニかわロボ図鑑で見る</a></p>
+</body>
+</html>

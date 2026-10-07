@@ -1,0 +1,79 @@
+{%- comment -%}
+  図鑑の機体写真を番号順に切り替えて見せるヒーロー用スライド。
+  親要素 (.mkr-hero) の中に置く。画像は表示直前に読み込む (全機体ぶんを先読みしない)。
+  JS が動かない場合は1枚目が出たままになる。
+{%- endcomment -%}
+{%- assign hero_entries = site.data.showcase | sort -%}
+{%- assign hero_first = nil -%}
+<div class="mkr-hero-slide is-active"></div>
+<div class="mkr-hero-slide"></div>
+<a class="mkr-hero-caption" href="{{ '/showcase/showcase.html' | relative_url }}"></a>
+<script type="application/json" class="mkr-hero-data">[
+{%- assign hero_sep = "" -%}
+{%- for item in hero_entries -%}
+  {%- assign m = item[1] -%}
+  {%- if m.images and m.images.size > 0 -%}
+    {%- unless hero_first -%}{%- assign hero_first = m -%}{%- endunless -%}
+    {{ hero_sep }}{"id": {{ m.id | jsonify }}, "name": {{ m.name | jsonify }}, "creator": {{ m.creator | jsonify }}, "img": {{ m.images[0] | prepend: '/' | relative_url | jsonify }}}
+    {%- assign hero_sep = "," -%}
+  {%- endif -%}
+{%- endfor -%}
+]</script>
+<style>
+.mkr-hero { position: relative; overflow: hidden; border-radius: 8px; background: #222; }
+.mkr-hero-slide {
+  position: absolute; inset: 0;
+  background-size: cover; background-position: center;
+  opacity: 0; transition: opacity 1.2s ease;
+}
+.mkr-hero-slide.is-active { opacity: 1; }
+.mkr-hero-caption {
+  position: absolute; right: .6rem; bottom: .6rem; z-index: 2;
+  background: rgba(0,0,0,.66); color: #fff !important;
+  font-size: .8rem; font-weight: 700; line-height: 1.4;
+  padding: .2rem .7rem; border-radius: 999px; text-decoration: none;
+  background-image: none !important;
+}
+.mkr-hero-caption:empty { display: none; }
+.mkr-hero-caption:hover { background: rgba(0,0,0,.85); }
+@media (prefers-reduced-motion: reduce) {
+  .mkr-hero-slide { transition: none; }
+}
+</style>
+{%- if hero_first %}
+<noscript><style>.mkr-hero-slide.is-active { background-image: url('{{ hero_first.images[0] | prepend: '/' | relative_url }}'); }</style></noscript>
+{%- endif %}
+<script>
+(function () {
+  var hero = document.currentScript.closest('.mkr-hero');
+  if (!hero) return;
+  var list = JSON.parse(hero.querySelector('.mkr-hero-data').textContent);
+  if (!list.length) return;
+  var slides = hero.querySelectorAll('.mkr-hero-slide');
+  var caption = hero.querySelector('.mkr-hero-caption');
+  var base = caption.getAttribute('href');
+  var INTERVAL = 5000;
+  var cur = 0, front = 0;
+
+  function show(i) {
+    var m = list[i];
+    var el = slides[front];
+    el.style.backgroundImage = 'url("' + m.img + '")';
+    slides[0].classList.toggle('is-active', front === 0);
+    slides[1].classList.toggle('is-active', front === 1);
+    caption.textContent = 'No.' + m.id + ' ' + m.name + (m.creator ? '（製作: ' + m.creator + '）' : '');
+    caption.href = base + '#m' + m.id;
+  }
+  function next() {
+    var n = (cur + 1) % list.length;
+    var img = new Image();
+    /* 読み込めてから切り替える (読み込み失敗時はその機体を飛ばす)。
+       HTML圧縮で1行になるので、このscript内で行コメント(スラッシュ2つ)は使わないこと */
+    img.onload = function () { cur = n; front = 1 - front; show(cur); };
+    img.onerror = function () { cur = n; };
+    img.src = list[n].img;
+  }
+  show(0);
+  if (list.length > 1) setInterval(next, INTERVAL);
+})();
+</script>
