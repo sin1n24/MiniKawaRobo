@@ -67,7 +67,7 @@ nav_order: 70
   background-image: none !important;
 }
 .showcase-xpost:hover { background: #000; }
-.showcase-hero { aspect-ratio: 4 / 3; margin: 0 0 1.5rem; }
+.showcase-hero { aspect-ratio: 4 / 3; width: 80%; margin: 0 auto 1.5rem; }
 .showcase-body { padding: 1rem 1.1rem 1.2rem; }
 .showcase-name { margin: 0 0 .2rem; font-size: 1.15rem; font-weight: 700; line-height: 1.3; }
 .showcase-creator { margin: 0 0 .6rem; color: #666; font-size: .85rem; }
