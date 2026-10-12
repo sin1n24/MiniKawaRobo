@@ -7,6 +7,22 @@ remote_theme: just-the-docs/just-the-docs
 
 favicon_ico: /assets/favicon.ico
 
+# OGP (jekyll-seo-tag)。ページごとの画像は front matter の image: で指定し、
+# 指定が無いページはここの既定画像になる。画像は _tools/make_ogp.py で生成。
+lang: ja
+twitter:
+  username: sin1west
+  card: summary_large_image
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/ogp/default.jpg
+  - scope:
+      path: "samplecode"
+    values:
+      image: /assets/ogp/minileopard.jpg
+
 # logo: "/assets/ミニかわロボ.png"
 
 aux_links:

@@ -2,6 +2,7 @@
 layout: default
 title: "みんなの製作記事"
 nav_order: 75
+image: /assets/ogp/articles.jpg
 ---
 
 # みんなの製作記事

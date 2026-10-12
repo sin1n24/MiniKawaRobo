@@ -2,6 +2,7 @@
 layout: default
 title: "技術紹介"
 nav_order: 60
+image: /assets/ogp/tips.jpg
 ---
 
 # 技術紹介

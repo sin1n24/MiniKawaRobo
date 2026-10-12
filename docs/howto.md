@@ -2,6 +2,7 @@
 layout: default
 title: "つくりかた"
 nav_order: 20
+image: /assets/ogp/howto.jpg
 ---
 
 

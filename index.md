@@ -13,6 +13,7 @@ hero_ctas:
     link: "docs/rule.html"
   - label: "ロボットを見たい"
     link: "showcase/showcase.html"
+image: /assets/ogp/default.jpg
 ---
 是非この資料を参考にロボットを製作して、バトルを通じて交流しましょう！
 

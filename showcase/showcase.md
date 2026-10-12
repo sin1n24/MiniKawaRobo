@@ -2,6 +2,7 @@
 layout: default
 title: "ミニかわロボ図鑑"
 nav_order: 70
+image: /assets/ogp/showcase.jpg
 ---
 
 <div class="mkr-hero showcase-hero">
@@ -67,6 +68,25 @@ nav_order: 70
   background-image: none !important;
 }
 .showcase-xpost:hover { background: #000; }
+.showcase-crown {
+  position: absolute;
+  left: .5rem;
+  bottom: .5rem;
+  background: rgba(0,0,0,.8);
+  color: #ffd23f !important;
+  font-size: 1.15rem;
+  font-weight: 700;
+  line-height: 1;
+  padding: .3rem .55rem;
+  border-radius: 999px;
+  border: 2px solid #ffd23f;
+  box-shadow: 0 2px 6px rgba(0,0,0,.35);
+  text-decoration: none !important;
+  background-image: none !important;
+  transition: transform .15s ease;
+}
+.showcase-crown:hover { transform: scale(1.12); }
+.showcase-crown small { font-size: .78rem; margin-left: .15rem; }
 .showcase-hero { aspect-ratio: 4 / 3; width: 80%; margin: 0 auto 1.5rem; }
 .showcase-body { padding: 1rem 1.1rem 1.2rem; }
 .showcase-name { margin: 0 0 .2rem; font-size: 1.15rem; font-weight: 700; line-height: 1.3; }
@@ -107,6 +127,13 @@ nav_order: 70
   {% assign m = item[1] %}
   {% assign m_results = result_list | where_exp: "r", "r[1].machine_id == m.id" %}
   {% assign win_count = m_results | where_exp: "r", "r[1].result_rank == 1" | size %}
+  {% comment %} ミニ大会ページの優勝ロボ (_data/tournaments.yml の winner_id) なら王冠マークを出す {% endcomment %}
+  {% comment %} where フィルタは "005" を数値扱いして一致しなくなるので where_exp を使う {% endcomment %}
+  {% assign m_wins = site.data.tournaments | where_exp: "t", "t.winner_id == m.id" %}
+  {% assign crown_count = m_wins.size %}
+  {% if crown_count == 0 %}{% assign crown_count = win_count %}{% endif %}
+  {% capture crown_url %}{{ '/docs/archive.html' | relative_url }}#{% if m_wins.size > 0 %}{{ m_wins.last.id }}{% else %}大会実績一覧{% endif %}{% endcapture %}
+  {% capture crown_title %}{% if m_wins.size > 0 %}{% for w in m_wins %}{{ w.date }} {{ w.event }}{{ w.suffix }} 優勝{% unless forloop.last %}／{% endunless %}{% endfor %}{% else %}ミニ大会 優勝 {{ win_count }}回{% endif %}（ミニ大会ページへ）{% endcapture %}
   {% capture x_text %}#ミニかわロボ 図鑑 No.{{ m.id }}「{{ m.name }}」{% if m.creator and m.creator != "" %}（製作: {{ m.creator }}）{% endif %}{% endcapture %}
   {% capture x_url %}{{ '/showcase/robots/' | append: m.id | append: '/' | absolute_url }}{% endcapture %}
   <div class="showcase-card" id="m{{ m.id }}">
@@ -115,6 +142,9 @@ nav_order: 70
       <img class="showcase-img" src="{{ m.images[0] | prepend: '/' | relative_url }}" alt="{{ m.name }}" loading="lazy">
       {% endif %}
       <span class="showcase-no">No.{{ m.id }}</span>
+      {% if crown_count > 0 %}
+      <a class="showcase-crown" href="{{ crown_url }}" title="{{ crown_title | escape }}" aria-label="{{ crown_title | escape }}">👑{% if crown_count > 1 %}<small>×{{ crown_count }}</small>{% endif %}</a>
+      {% endif %}
       <a class="showcase-xpost" href="https://x.com/intent/post?text={{ x_text | url_encode }}&url={{ x_url | url_encode }}" target="_blank" rel="noopener" aria-label="{{ m.name }} をXでPOST">XでPOST</a>
     </div>
     <div class="showcase-body">

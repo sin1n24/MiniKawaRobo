@@ -2,6 +2,7 @@
 layout: default
 title: "ミニ大会"
 nav_order: 40
+image: /assets/ogp/archive.jpg
 ---
 
 # ミニ大会・イベント
@@ -17,17 +18,30 @@ nav_order: 40
 
 ## 大会実績一覧
 
+{% comment %} 表の中身は _data/tournaments.yml。行を足す・直すときはそちらを編集する {% endcomment %}
 | 日時 | イベント名 | 優勝ロボ | 場所 | 参加台数 |
 | :--- | :--- | :--- | :--- | :--- |
-| 2025/09/13 | [3Dプリンタの集いin大阪](https://www.3dp-tudoi.ponbashi.jp/)  | ミニレパードS | 大阪市 中央公会堂 | 3 |
-| 2025/10/04 | [KHK杯](https://www.khkgears.co.jp/about_khk/khkcup/)  | （練習会） | 埼玉 川口 | 3 |
-| 2025/11/01 | 電大杯  | ぷち矛くん | 東京 北千住 | 10 |
-| 2025/12/06 | 立命杯  | ミニレパードY | 滋賀 南草津 | 6 |
-| 2026/03/01 | [メイカーズながおかまつり](https://www.city.nagaoka.niigata.jp/sangyou/cate01/mono-fair2.html)  | あるごまる | 長岡 アオーレ | 4 |
-| **2026/05/30** | [JRRF 2026](https://japanreprapfestival.com/)-day1  | ミニレパードS | 東京 流通センター | 5 |
-| **2026/05/31** | [JRRF 2026](https://japanreprapfestival.com/)-day2  | サンテラス英語数学算数教室 | 東京 流通センター | 4 |
-| **2026/10/03** | [KHK杯](https://www.khkgears.co.jp/about_khk/khkcup/)  | （練習会） | 埼玉 川口 | 5 |
-| **2026/10/31** | [電大杯](https://x.com/TDU_AOC/status/2104572838133014616)  | [（実施予定）](https://sin1.studio/blog/2026-10-07-minikawarobo-khk-cup/) | 東京 北千住 | [募集中](https://sin1.studio/blog/2026-10-07-minikawarobo-khk-cup/) |
+{% for t in site.data.tournaments -%}
+{%- capture t_date -%}{% if t.recent %}**{{ t.date }}**{% else %}{{ t.date }}{% endif %}{%- endcapture -%}
+{%- capture t_event -%}{% if t.event_url %}[{{ t.event }}]({{ t.event_url }}){% else %}{{ t.event }}{% endif %}{{ t.suffix }}{%- endcapture -%}
+{%- capture t_winner -%}
+  {%- if t.winner_id and site.data.showcase[t.winner_id] -%}
+    <a href="{{ '/showcase/showcase.html' | relative_url }}#m{{ t.winner_id }}" title="ミニかわロボ図鑑 No.{{ t.winner_id }} を見る">👑 {{ t.winner }}</a>
+  {%- elsif t.winner_url -%}
+    [{{ t.winner }}]({{ t.winner_url }})
+  {%- else -%}
+    {{ t.winner }}
+  {%- endif -%}
+{%- endcapture -%}
+{%- capture t_count -%}{% if t.count_url %}[{{ t.count }}]({{ t.count_url }}){% else %}{{ t.count }}{% endif %}{%- endcapture -%}
+| <span id="{{ t.id }}" class="mkr-tournament-anchor"></span>{{ t_date }} | {{ t_event }} | {{ t_winner }} | {{ t.place }} | {{ t_count }} |
+{% endfor %}
+<style>
+.mkr-tournament-anchor { scroll-margin-top: 6rem; }
+tr:has(.mkr-tournament-anchor:target) td { background: #fff4d6; }
+</style>
+
+👑 の付いた優勝ロボは [ミニかわロボ図鑑]({% link showcase/showcase.md %}) に登録されている機体で、クリックすると図鑑の該当ページに移動します。
 
 機体ごとの詳しい戦績は、[ミニかわロボ図鑑]({% link showcase/showcase.md %}) の各カードでも確認できます。
 

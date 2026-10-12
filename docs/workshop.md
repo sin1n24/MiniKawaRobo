@@ -2,6 +2,7 @@
 layout: default
 title: "ワークショップ"
 nav_order: 50
+image: /assets/ogp/workshop.jpg
 ---
 
 # ミニかわロボ ワークショップ

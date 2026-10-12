@@ -29,3 +29,23 @@
     <script type="text/javascript" src="{{ '/assets/js/vendor/tinyseg.js' | absolute_url }}"></script>
     <script type="text/javascript" src="{{ '/assets/js/vendor/lunr.ja.min.js' | absolute_url }}"></script>
 {% endif %}
+
+<style>
+/* XでPOSTボタン (_includes/xpost_button.html) */
+.mkr-xpost {
+  display: inline-block;
+  background: #000;
+  color: #fff !important;
+  font-size: .8rem;
+  font-weight: 700;
+  line-height: 1.5;
+  padding: .25rem .9rem;
+  border-radius: 999px;
+  text-decoration: none !important;
+  background-image: none !important;
+  white-space: nowrap;
+}
+.mkr-xpost:hover { background: #333; }
+.mkr-xpost-header { align-self: center; margin: 0 .75rem; }
+.mkr-xpost-footer { margin: 1rem 0; font-size: .85rem; color: #666; }
+</style>

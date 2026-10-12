@@ -2,6 +2,7 @@
 layout: default
 title: "ミニかわロボとは"
 nav_order: 10
+image: /assets/ogp/about.jpg
 ---
 
 # ミニかわロボとは

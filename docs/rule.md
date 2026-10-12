@@ -2,6 +2,7 @@
 layout: default
 title: "競技ルール"
 nav_order: 30
+image: /assets/ogp/rule.jpg
 ---
 # 競技ルール
 ![競技ルールイメージ](../assets/rule.png)

@@ -2,6 +2,7 @@
 layout: default
 title: "よくある質問（FAQ）"
 nav_order: 80
+image: /assets/ogp/faq.jpg
 ---
 
 # よくある質問（FAQ）

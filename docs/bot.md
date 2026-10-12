@@ -2,6 +2,7 @@
 layout: default
 title: "ミニかわBot"
 nav_order: 85
+image: /assets/ogp/bot.jpg
 ---
 
 # ミニかわBot

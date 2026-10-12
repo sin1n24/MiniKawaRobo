@@ -2,6 +2,7 @@
 layout: default
 title: "用語集"
 nav_order: 90
+image: /assets/ogp/glossary.jpg
 ---
 
 # 用語集

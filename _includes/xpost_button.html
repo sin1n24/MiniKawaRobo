@@ -1,0 +1,10 @@
+{%- comment -%}
+  いま見ているページを X でPOSTするボタン。include.class で見た目用のクラスを足せる。
+  図鑑の機体ごとのボタンは showcase/showcase.md 側にある (機体写真つきの共有ページへ飛ばすため別物)。
+{%- endcomment -%}
+{%- if page.url == "/" -%}
+  {%- capture xpost_text -%}{{ site.title }}｜{{ page.hero_body | default: site.description }} #ミニかわロボ{%- endcapture -%}
+{%- else -%}
+  {%- capture xpost_text -%}{{ page.title }}｜{{ site.title }} #ミニかわロボ{%- endcapture -%}
+{%- endif -%}
+<a class="mkr-xpost {{ include.class }}" href="https://x.com/intent/post?text={{ xpost_text | url_encode }}&url={{ page.url | absolute_url | url_encode }}" target="_blank" rel="noopener" aria-label="このページをXでPOST">XでPOST</a>

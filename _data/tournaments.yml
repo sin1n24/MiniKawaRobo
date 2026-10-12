@@ -1,0 +1,78 @@
+# ミニ大会の実績一覧。docs/archive.md の「大会実績一覧」の表と、図鑑の王冠マークの元データ。
+#   id         : 行のアンカー名 (図鑑の王冠マークからここへ飛ぶ)。重複させないこと
+#   date       : 開催日        recent: true で日付を太字にする
+#   event      : イベント名    event_url: イベントのリンク (任意)   suffix: リンクの後ろに付ける文字 (任意)
+#   winner     : 優勝ロボの表示名    winner_url: 優勝ロボ欄をリンクにする場合 (任意)
+#   winner_id  : 優勝ロボが図鑑にある場合、その機体番号 (例 "005")。
+#                書くと図鑑の機体写真の左下に王冠マークが付き、この表の優勝ロボ欄も図鑑へのリンクになる
+#   place      : 場所          count: 参加台数    count_url: 参加台数欄をリンクにする場合 (任意)
+- id: t20250913
+  date: "2025/09/13"
+  event: 3Dプリンタの集いin大阪
+  event_url: https://www.3dp-tudoi.ponbashi.jp/
+  winner: ミニレパードS
+  place: 大阪市 中央公会堂
+  count: 3
+- id: t20251004
+  date: "2025/10/04"
+  event: KHK杯
+  event_url: https://www.khkgears.co.jp/about_khk/khkcup/
+  winner: （練習会）
+  place: 埼玉 川口
+  count: 3
+- id: t20251101
+  date: "2025/11/01"
+  event: 電大杯
+  winner: ぷち矛くん
+  place: 東京 北千住
+  count: 10
+- id: t20251206
+  date: "2025/12/06"
+  event: 立命杯
+  winner: ミニレパードY
+  place: 滋賀 南草津
+  count: 6
+- id: t20260301
+  date: "2026/03/01"
+  event: メイカーズながおかまつり
+  event_url: https://www.city.nagaoka.niigata.jp/sangyou/cate01/mono-fair2.html
+  winner: あるごまる
+  place: 長岡 アオーレ
+  count: 4
+- id: t20260530
+  date: "2026/05/30"
+  recent: true
+  event: JRRF 2026
+  event_url: https://japanreprapfestival.com/
+  suffix: "-day1"
+  winner: ミニレパードS
+  place: 東京 流通センター
+  count: 5
+- id: t20260531
+  date: "2026/05/31"
+  recent: true
+  event: JRRF 2026
+  event_url: https://japanreprapfestival.com/
+  suffix: "-day2"
+  winner: サンテラス英語数学算数教室
+  winner_id: "005"
+  place: 東京 流通センター
+  count: 4
+- id: t20261003
+  date: "2026/10/03"
+  recent: true
+  event: KHK杯
+  event_url: https://www.khkgears.co.jp/about_khk/khkcup/
+  winner: （練習会）
+  place: 埼玉 川口
+  count: 5
+- id: t20261031
+  date: "2026/10/31"
+  recent: true
+  event: 電大杯
+  event_url: https://x.com/TDU_AOC/status/2104572838133014616
+  winner: （実施予定）
+  winner_url: https://sin1.studio/blog/2026-10-07-minikawarobo-khk-cup/
+  place: 東京 北千住
+  count: 募集中
+  count_url: https://sin1.studio/blog/2026-10-07-minikawarobo-khk-cup/
