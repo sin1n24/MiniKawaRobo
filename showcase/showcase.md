@@ -86,7 +86,6 @@ image: /assets/ogp/showcase.jpg
   transition: transform .15s ease;
 }
 .showcase-crown:hover { transform: scale(1.12); }
-.showcase-crown small { font-size: .78rem; margin-left: .15rem; }
 .showcase-hero { aspect-ratio: 4 / 3; width: 80%; margin: 0 auto 1.5rem; }
 .showcase-body { padding: 1rem 1.1rem 1.2rem; }
 .showcase-name { margin: 0 0 .2rem; font-size: 1.15rem; font-weight: 700; line-height: 1.3; }
@@ -143,7 +142,7 @@ image: /assets/ogp/showcase.jpg
       {% endif %}
       <span class="showcase-no">No.{{ m.id }}</span>
       {% if crown_count > 0 %}
-      <a class="showcase-crown" href="{{ crown_url }}" title="{{ crown_title | escape }}" aria-label="{{ crown_title | escape }}">👑{% if crown_count > 1 %}<small>×{{ crown_count }}</small>{% endif %}</a>
+      <a class="showcase-crown" href="{{ crown_url }}" title="{{ crown_title | escape }}" aria-label="{{ crown_title | escape }}">👑</a>
       {% endif %}
       <a class="showcase-xpost" href="https://x.com/intent/post?text={{ x_text | url_encode }}&url={{ x_url | url_encode }}" target="_blank" rel="noopener" aria-label="{{ m.name }} をXでPOST">XでPOST</a>
     </div>

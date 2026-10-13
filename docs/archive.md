@@ -43,8 +43,6 @@ tr:has(.mkr-tournament-anchor:target) td { background: #fff4d6; }
 
 👑 の付いた優勝ロボは [ミニかわロボ図鑑]({% link showcase/showcase.md %}) に登録されている機体で、クリックすると図鑑の該当ページに移動します。
 
-機体ごとの詳しい戦績は、[ミニかわロボ図鑑]({% link showcase/showcase.md %}) の各カードでも確認できます。
-
 ## 今後の開催予定について
 
 最新の開催予定は、以下のチャネルでお知らせしています：
