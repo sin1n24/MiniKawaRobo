@@ -11,6 +11,7 @@
   event: 3Dプリンタの集いin大阪
   event_url: https://www.3dp-tudoi.ponbashi.jp/
   winner: ミニレパードS
+  winner_id: "003"
   place: 大阪市 中央公会堂
   count: 3
 - id: t20251004
@@ -30,6 +31,7 @@
   date: "2025/12/06"
   event: 立命杯
   winner: ミニレパードY
+  winner_id: "002"
   place: 滋賀 南草津
   count: 6
 - id: t20260301
@@ -46,6 +48,7 @@
   event_url: https://japanreprapfestival.com/
   suffix: "-day1"
   winner: ミニレパードS
+  winner_id: "003"
   place: 東京 流通センター
   count: 5
 - id: t20260531
